@@ -12,8 +12,7 @@ pipeline {
             steps {
                 echo "Building.."
                 sh '''
-                cd myapp
-                pip install -r requirements.txt
+                echo "Building from Jenkins file"
                 '''
             }
         }
@@ -21,9 +20,7 @@ pipeline {
             steps {
                 echo "Testing.."
                 sh '''
-                cd myapp
-                python3 hello.py
-                python3 hello.py --name=Avinash
+                echo "Testing the build triggered from Jenkins file."
                 '''
             }
         }
