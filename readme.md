@@ -55,6 +55,7 @@ docker inspect <container_id> | grep IPAddress
 ```
 
 ## Using devops1 Jenkins Python Agent
+## Note: Not needed for our SE Assignment (since we are not running python scripts on Docker cloud agent).
 ```
 docker pull devopsjourney1/myjenkinsagents:python
 ```
