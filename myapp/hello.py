@@ -1,3 +1,4 @@
+# Not needed for the assignment
 import fire
 
 def hello(name="World"):
